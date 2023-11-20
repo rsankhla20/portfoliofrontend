@@ -42,8 +42,23 @@ const Education = () => {
               Senior Secondary
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              AVS Jodhpur, India
+              AVS Jodhpur, Rajasthan
             </h4>
+            <p>Percentage: 98.60 (Secured District Rank 1)</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(196, 241, 241)", color: "black" }}
+            contentArrowStyle={{ borderRight: "7px solid  white" }}
+            date="2016 - 2017"
+            iconStyle={{ background: "#138781", color: "#fff" }}
+            icon={<MdSchool />}
+          >
+            <h3 className="vertical-timeline-element-title">Matric</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              AVS Jodhpur, Rajasthan
+            </h4>
+            <p>Percentage: 90.33</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

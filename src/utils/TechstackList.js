@@ -1,6 +1,6 @@
 import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNextjs, TbBrandVscode } from "react-icons/tb";
 import {
   SiJavascript,
   SiMui,
@@ -8,7 +8,6 @@ import {
   SiTailwindcss,
   SiMongodb,
   SiMysql,
-  SiTypescript,
   SiGithub,
   SiExpress,
 } from "react-icons/si";
@@ -21,7 +20,7 @@ export const TechstackList = [
   },
   {
     _id: 2,
-    name: "CSS / SCSS",
+    name: "CSS",
     icon: BsFiletypeCss,
   },
   {
@@ -36,8 +35,8 @@ export const TechstackList = [
   },
   {
     _id: 5,
-    name: "TypeScript",
-    icon: SiTypescript,
+    name: "VS Code",
+    icon: TbBrandVscode,
   },
 
   {
@@ -47,7 +46,7 @@ export const TechstackList = [
   },
   {
     _id: 7,
-    name: "Nextjs",
+    name: "Next Js",
     icon: TbBrandNextjs,
   },
   {
@@ -79,7 +78,7 @@ export const TechstackList = [
   },
   {
     _id: 13,
-    name: "SQL ",
+    name: "MySQL ",
     icon: SiMysql,
   },
 

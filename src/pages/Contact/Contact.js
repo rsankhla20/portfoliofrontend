@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Contact.css";
-import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsInstagram, BsLinkedin } from "react-icons/bs";
+import { FaTwitter } from "react-icons/fa";
 import { toast } from "react-toastify";
 import contactImg from "../../assets/images/contact.png";
 
@@ -57,17 +58,36 @@ const Contact = () => {
                   <div className="row ">
                     <h6 className="text-center">
                       Contact With
-                      <BsLinkedin
-                        color="blue"
-                        size={30}
-                        className="ms-2 mx-2 linkedinIcon"
-                      />
-                      <BsGithub color="black" size={30} className="ms-2 mx-2" />
-                      <BsInstagram
-                        color="#E4405F"
-                        size={30}
-                        className="ms-2 mx-2"
-                      />
+                      <a
+                        href="https://www.linkedin.com/in/rakesh-sankhla"
+                        target="blank"
+                      >
+                        <BsLinkedin
+                          color="blue"
+                          size={30}
+                          className="ms-2 mx-2 linkedinIcon"
+                        />{" "}
+                      </a>
+                      <a
+                        href="https://twitter.com/RakeshS56664363"
+                        target="blank"
+                      >
+                        <FaTwitter
+                          color="black"
+                          size={30}
+                          className="ms-2 mx-2"
+                        />
+                      </a>
+                      <a
+                        href="https://www.instagram.com/ra.kesh_sankhla/"
+                        target="blank"
+                      >
+                        <BsInstagram
+                          color="#E4405F"
+                          size={30}
+                          className="ms-2 mx-2"
+                        />
+                      </a>
                     </h6>
                   </div>
 

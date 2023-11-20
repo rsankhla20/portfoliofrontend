@@ -4,8 +4,9 @@ import Particlesbg from "../../components/Particlesbg/Particlesbg";
 import "./home.css";
 import Fade from "react-reveal/Fade";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import { FcBusinessman } from "react-icons/fc";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/resume.txt";
+import Resume from "../../assets/docs/resume.pdf";
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
@@ -30,7 +31,13 @@ const Home = () => {
             <h1>
               <Typewriter
                 options={{
-                  strings: ["Full Stack Developer!", "Mern Stack Developer!"],
+                  strings: [
+                    "Full Stack Developer!",
+                    "Mern Stack Developer!",
+
+                    "Civil Engineer",
+                    "Programming Enthusiast",
+                  ],
                   autoStart: true,
                   loop: true,
                 }}
@@ -47,7 +54,7 @@ const Home = () => {
               >
                 Hire Me
               </a>
-              <a className="btn btn-cv" href={Resume} download="your_name.pdf">
+              <a className="btn btn-cv" href={Resume} download="resume.pdf">
                 My Resume
               </a>
             </div>

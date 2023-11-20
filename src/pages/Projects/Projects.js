@@ -1,6 +1,9 @@
 import React from "react";
 import "./Projects.css";
 import Spin from "react-reveal/Spin";
+import dalle2 from "../../assets/images/dalle2.jpeg";
+import notehub from "../../assets/images/notehub.jpeg";
+import todoapp from "../../assets/images/todoapp.jpeg";
 
 const Projects = () => {
   return (
@@ -11,7 +14,8 @@ const Projects = () => {
         </h2>
         <hr />
         <p className="pb-3 text-center">
-          👉 here are my top 3 recent project with live links and source code
+          👉 here are my top 3 recent project with live links and technologies
+          used
         </p>
 
         {/* card design */}
@@ -22,10 +26,7 @@ const Projects = () => {
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">Full Stack</span>
-                  <img
-                    src="https://tse1.mm.bing.net/th?id=OIP.j60dA2rqGCbSlZIeuSZvVQHaFe&pid=Api&P=0&h=180"
-                    alt="Project1"
-                  />
+                  <img src={dalle2} alt="Project1" />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
                   <span className="card-detail-badge">Node</span>
@@ -35,10 +36,14 @@ const Projects = () => {
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title  ">
-                    <h5 className="text-uppercase">Blog Website</h5>
+                    <h5 className="text-uppercase">Dall-E 2.0</h5>
                   </div>
-                  <a href="#" className="ad-btn">
-                    view
+                  <a
+                    href="https://ai-image-generator-fi9s.onrender.com/"
+                    className="ad-btn"
+                    target="blank"
+                  >
+                    view site
                   </a>
                 </div>
               </div>
@@ -47,10 +52,8 @@ const Projects = () => {
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">Full Stack</span>
-                  <img
-                    src="https://tse1.mm.bing.net/th?id=OIP.j60dA2rqGCbSlZIeuSZvVQHaFe&pid=Api&P=0&h=180"
-                    alt="Project1"
-                  />
+
+                  <img src={notehub} alt="Note Making App" />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
                   <span className="card-detail-badge">Node</span>
@@ -60,10 +63,14 @@ const Projects = () => {
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title  ">
-                    <h5 className="text-uppercase">Blog Website</h5>
+                    <h5 className="text-uppercase">Note Making App</h5>
                   </div>
-                  <a href="#" className="ad-btn">
-                    view
+                  <a
+                    href="https://notehub-app.onrender.com/login"
+                    className="ad-btn"
+                    target="blank"
+                  >
+                    view site
                   </a>
                 </div>
               </div>
@@ -72,10 +79,7 @@ const Projects = () => {
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">Full Stack</span>
-                  <img
-                    src="https://tse1.mm.bing.net/th?id=OIP.j60dA2rqGCbSlZIeuSZvVQHaFe&pid=Api&P=0&h=180"
-                    alt="Project1"
-                  />
+                  <img src={todoapp} alt="ToDo App" />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
                   <span className="card-detail-badge">Node</span>
@@ -85,10 +89,14 @@ const Projects = () => {
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title  ">
-                    <h5 className="text-uppercase">Blog Website</h5>
+                    <h5 className="text-uppercase">ToDo App</h5>
                   </div>
-                  <a href="#" className="ad-btn">
-                    view
+                  <a
+                    href="https://todolistapp-bvs5.onrender.com/"
+                    className="ad-btn"
+                    target="blank"
+                  >
+                    view site
                   </a>
                 </div>
               </div>

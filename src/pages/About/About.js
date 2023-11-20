@@ -14,21 +14,19 @@ const About = () => {
           <div className="col-md-12 col-xl-6 col-lg-6 col-xs-12  about-content">
             <h1>About me</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              ipsam nemo nulla vero adipisci nesciunt deserunt, illum ratione
-              error in! At eos, dignissimos totam animi sapiente pariatur
-              assumenda earum voluptatum ab adipisci itaque voluptatem eveniet
-              repellendus quidem. Tempore maxime omnis, rerum qui aliquam
-              praesentium cupiditate ipsa doloribus et, nulla distinctio!
-              Recusandae quos aliquam illum voluptatum quis modi ipsam est omnis
-              ad facilis, sit distinctio eos a tempore? Eos mollitia, hic
-              exercitationem perferendis cupiditate sint blanditiis voluptate
-              inventore, libero facilis unde fugiat, natus sequi ipsa quos
-              maxime architecto. Id aut minus adipisci quasi ab soluta rem
-              laudantium dolor, tempora dolores, commodi, fugit quas ex odit! A
-              in placeat corporis reprehenderit aliquid quibusdam quidem minima
-              numquam perspiciatis exercitationem, odit aspernatur incidunt
-              maiores mollitia maxime similique ab, esse debitis omnis.
+              Hello 👋, I'm Rakesh Sankhla, a passionate web developer with a
+              strong background in Civil Engineering. Currently, I am pursuing a
+              B.Tech degree in Civil Engineering at IIT Kanpur. Although my
+              academic journey lies in Civil Engineering, I found my true
+              passion in web development. I enjoy the process of creating
+              visually appealing and functional websites that provide great user
+              experiences. I have honed my skills in HTML, CSS, JavaScript, and
+              various web development frameworks like Bootstrap. I also have
+              experience working with front-end libraries and tools, which have
+              allowed me to develop modern and responsive web applications. I'm
+              excited about the endless possibilities in web development and
+              eager to take on new opportunities to make a positive impact on
+              the digital world.
             </p>
           </div>
         </div>
