@@ -110,7 +110,7 @@ const MobNav = () => {
                     <FcVideoProjector /> Projects
                   </Link>
                 </div>
-                <div className="nav-link">
+                {/* <div className="nav-link">
                   <Link
                     to="workexp"
                     spy={true}
@@ -121,7 +121,7 @@ const MobNav = () => {
                   >
                     <FcManager /> Work Experience
                   </Link>
-                </div>
+                </div> */}
                 <div className="nav-link">
                   <Link
                     to="contacts"
